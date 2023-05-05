@@ -91,7 +91,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/apple/vue/large-file-upload/server/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -104,8 +104,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/apple/vue/large-file-upload/server/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/apple/vue/large-file-upload/server/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -156,14 +156,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/apple/vue/large-file-upload/server/app/public",
+      "dir": "/Users/apple/vue/vue-study-demo/server/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/apple/vue/large-file-upload/server/app/view",
+      "root": "/Users/apple/vue/vue-study-demo/server/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -242,9 +242,9 @@
       "author": "xbc",
       "license": "MIT"
     },
-    "baseDir": "/Users/apple/vue/large-file-upload/server",
+    "baseDir": "/Users/apple/vue/vue-study-demo/server",
     "HOME": "/Users/apple",
-    "rundir": "/Users/apple/vue/large-file-upload/server/run",
+    "rundir": "/Users/apple/vue/vue-study-demo/server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -277,7 +277,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/apple/vue/large-file-upload/server/logs/server",
+      "dir": "/Users/apple/vue/vue-study-demo/server/logs/server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -356,8 +356,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-onerror",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-onerror",
       "version": "2.2.0"
     },
     "session": {
@@ -367,8 +367,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-session",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-session",
       "version": "3.3.0",
       "dependents": [
         "io"
@@ -381,8 +381,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-i18n",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -392,8 +392,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-watcher",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -408,8 +408,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-multipart",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -421,8 +421,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-security",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-security",
       "version": "2.11.0"
     },
     "development": {
@@ -436,8 +436,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-development",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -449,8 +449,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-logrotator",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -460,8 +460,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-schedule",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-schedule",
       "version": "3.7.0",
       "dependents": [
         "logrotator"
@@ -474,8 +474,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-static",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-static",
       "version": "2.3.1"
     },
     "jsonp": {
@@ -487,8 +487,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-jsonp",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -498,8 +498,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-view",
+      "from": "/Users/apple/vue/vue-study-demo/server/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-view",
       "version": "2.1.4"
     },
     "cors": {
@@ -509,8 +509,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-cors",
+      "from": "/Users/apple/vue/vue-study-demo/server/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-cors",
       "version": "2.2.3"
     },
     "io": {
@@ -522,14 +522,14 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/vue/large-file-upload/server/config/plugin.js",
-      "path": "/Users/apple/vue/large-file-upload/server/node_modules/egg-socket.io",
+      "from": "/Users/apple/vue/vue-study-demo/server/config/plugin.js",
+      "path": "/Users/apple/vue/vue-study-demo/server/node_modules/egg-socket.io",
       "version": "4.1.6"
     }
   },
   "appInfo": {
     "name": "server",
-    "baseDir": "/Users/apple/vue/large-file-upload/server",
+    "baseDir": "/Users/apple/vue/vue-study-demo/server",
     "env": "local",
     "scope": "",
     "HOME": "/Users/apple",
@@ -583,6 +583,6 @@
       "author": "xbc",
       "license": "MIT"
     },
-    "root": "/Users/apple/vue/large-file-upload/server"
+    "root": "/Users/apple/vue/vue-study-demo/server"
   }
 }
