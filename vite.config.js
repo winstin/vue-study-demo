@@ -15,6 +15,15 @@ export default defineConfig({
       },
     },
   },
+  css: {
+    /* CSS 预处理器 */
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "src/assets/var.scss";',
+      },
+    },
+  },
+
   plugins: [
     vue(),
     createSvgIconsPlugin({

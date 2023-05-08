@@ -1,20 +1,34 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-</script>
+
 
 <template>
   <div>
     <header>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink v-for="item in routes" :key="item.path" :to="item.path">
+          {{ item.name }}
+        </RouterLink>
+        <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/UploadLargeFile">UploadLargeFile</RouterLink>
         <RouterLink to="/SvgView">SvgView</RouterLink>
         <RouterLink to="/SvgPro">SvgPro</RouterLink>
+        <RouterLink to="/GridView">GridView</RouterLink> -->
       </nav>
     </header>
     <RouterView />
   </div>
 </template>
+
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+import router from "@/router";
+import { ref, onMounted } from "vue";
+
+const routes = ref([]);
+onMounted(() => {
+  console.log(router);
+  routes.value = router.getRoutes();
+});
+</script>
 
 <style scoped>
 header {
